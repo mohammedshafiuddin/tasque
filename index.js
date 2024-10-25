@@ -8,7 +8,7 @@ const app = express();
 // SSL Certificate options
 const sslOptions = {
     key: fs.readFileSync(path.join(__dirname,'certs', 'private.key')),
-    cert: fs.readFileSync(path.join(__dirname,'certs', 'certificate.cert'))
+    cert: fs.readFileSync(path.join(__dirname,'certs', 'certificate.crt'))
 };
 
 // Define routes
