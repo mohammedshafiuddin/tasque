@@ -31,7 +31,7 @@ COPY --from=builder /app/assets ./assets
 RUN npm install --only=production
 
 # Expose the port your app runs on
-EXPOSE 443
+EXPOSE 3000
 
 # Command to run your application
 CMD ["node", "dist/index.js"]
