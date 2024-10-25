@@ -10,8 +10,8 @@ app.use('/',(req,res) => {
 })
 
 const server = https.createServer({
-    key: path.join(__dirname, 'certs', 'private.key'),
-    cert: path.join(__dirname, 'certs', 'certificate.cert')   
+    key: path.join(__dirname, 'assets','certs', 'private.key'),
+    cert: path.join(__dirname, 'assets','certs', 'certificate.cert')   
 }, app);
 
 server.listen(3000, () => {
