@@ -13,7 +13,7 @@ const sslOptions = {
 
 // Define routes
 app.get('/', (req, res) => {
-    res.send('Hello, HTTPS!');
+    res.send('Hello World!');
 });
 
 // Start HTTPS server
