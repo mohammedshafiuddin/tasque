@@ -1,5 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import constructionLogo from '/construction.svg'
 import './App.css'
 
